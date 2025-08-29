@@ -5,7 +5,11 @@ import { RouterProvider , createBrowserRouter} from 'react-router-dom'
 import SignupPage from './SignupPage'
 
 
+
+
 const Body = () => {
+ 
+
     const appRouter = createBrowserRouter([
  
    {
@@ -26,6 +30,7 @@ const Body = () => {
    }
     ]
     )
+   
   return (
     <div>
      <RouterProvider router={appRouter} />
