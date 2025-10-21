@@ -27,7 +27,11 @@ Browse(after autentication)
       movie lists * n
       update profile
       bugfix: if user not logged in redirect/browse to login page and vice versa
+      unsubscribe unauthstate change callbacks
+     Add hardcoded values to constants file.
+     Rigester TMDB API & create an app get access token
+     get data from TMDB now playing list api
 
-  Netflix gpt
+       Netflix gpt
     search Bar
     movie suggestions    

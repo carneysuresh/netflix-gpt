@@ -33,9 +33,11 @@ function LoginPage() {
     if(!Signinform) { 
         createUserWithEmailAndPassword
         (auth, email.current.value, password.current.value)
-  .then((userCredential) => {
+  .then((userCredential) => { 
     // Signed up 
     const user = userCredential.user;
+
+    
     // Navigate("/Browser")
     console.log(user)
    
